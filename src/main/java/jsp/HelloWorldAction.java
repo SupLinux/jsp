@@ -31,6 +31,7 @@ public class HelloWorldAction extends ActionSupport {
     private String name;
     private String abc;
     private String bbb;
+    private String ccc;
     @TypeConversion(converter = "jsp.DateConverter")
     @RequiredFieldValidator(message = "Please enter the date")
     public void setDateNow(Date now) { this.now = now; }
